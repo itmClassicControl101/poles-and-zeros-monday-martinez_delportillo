@@ -1,0 +1,12 @@
+* C:\Users\Gustavo\Desktop\Draft2.asc
+V1 1 0 AC 5V
+;V1 1 0 pulse(0V, 5V, 1ns, 1ns, 1ms, 2ms, 3ms, 4ms, 5ms )
+L1 3 0 4.29mH
+R1 1 2  27
+R2 2 3 100
+R3 2 0 2.2k
+.ac dec 10 10Hz 10000000Hz 
+;tran 100us 2.5ms
+.end
+.backanno
+.end
